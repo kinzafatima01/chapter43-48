@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+     <!-- Qno:01 -->
+     <a href="#" onclick="clickeable()">Click Me</a> 
+     <!-- Qno:02-->
+     <h1>Click on a Mobile Image</h1>
+     <div class="image-container">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDGltPX_N-SbbtRIDKLbxB7UeRR4GHvxLjQA&s" alt="Mobile 1" onclick="showAlert('Mobile 1')">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtqs8aSiQbbggHsDbjMJsLQXbCpjkdRMHOtA&s" alt="Mobile 2" onclick="showAlert('Mobile 2')">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsA_Kfjnyc2pURND3bBnT2Ccv_KopVJ2wpcA&s" alt="Mobile 3" onclick="showAlert('Mobile 3')">
+     </div> 
+
+    <h2 style="text-align: center;">Student Records</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="studentTable">
+            <!-- Student records will be dynamically inserted here -->
+        </tbody>
+    </table>
+    
+    <img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT41BIr_VHW-D2WjygFfFkvxMYIA2yJLxurgA&s" alt="First Image" width="300" height="200">
+    <h2> counter</h2>
+    <div id="counter">0</div>
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+
+
+    
+</body>
+</html>
